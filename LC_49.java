@@ -18,12 +18,15 @@ class Solution {
             map.put(key.toString(), anagrams);
         }
         
-        List<List<String>> ans = new ArrayList();
-        for(String key: map.keySet()){
-            ans.add(map.get(key));
-        }
+        //List<List<String>> ans = new ArrayList();
+        //for(String key: map.keySet()){
+            //ans.add(map.get(key));
+        //}
+        //return ans;
         
-        return ans;
+        
+        //instead short way
+        return new ArrayList(map.values());
         
     }
 }
