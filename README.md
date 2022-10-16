@@ -1,2 +1,2 @@
 # LeetCode
-Top medium Level Amazon Questions
+Top Medium Level Amazon Questions
